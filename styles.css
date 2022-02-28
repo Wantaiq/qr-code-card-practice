@@ -34,21 +34,30 @@ main.wrapper {
     align-items: center;
     background-color: var(--card-bg);
 
+    padding: 18px;
     max-width: 320px;
+    text-align: center;
 }
 
 .qr-card,
 img.qr-code {
-    border-radius: 10px;
+    border-radius: 13px;
 }
 
 img.qr-code {
-    max-width: 265px;
-    max-height: auto;
+    max-width: 290px;
+}
+
+h1.heading {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 25px 10px 10px 10px;
 }
 
 p {
     color: var(--p-color);
+    padding: 10px;
+    margin-bottom: 23px;
 }
 
 h1 {
