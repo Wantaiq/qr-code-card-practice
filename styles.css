@@ -1,3 +1,5 @@
+@import: url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
 :root {
     --p-color: hsl(220, 15%, 55%);
     --h1-color: hsl(218, 44%, 22%);
@@ -5,13 +7,44 @@
     --main-bg: hsl(212, 45%, 89%);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--main-bg);
     font-size: 15px;
+    font-family: "Outift", sans-serif;
 }
 
 main.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--card-bg);
+
+    max-width: 320px;
+}
+
+.qr-card,
+img.qr-code {
+    border-radius: 10px;
+}
+
+img.qr-code {
+    max-width: 265px;
+    max-height: auto;
 }
 
 p {
@@ -21,7 +54,6 @@ p {
 h1 {
     color: var(--h1-color)
 }
-
 
 .attribution { 
     font-size: 11px; 
