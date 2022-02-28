@@ -1,11 +1,26 @@
+:root {
+    --p-color: hsl(220, 15%, 55%);
+    --h1-color: hsl(218, 44%, 22%);
+    --card-bg: hsl(0, 0%, 100%);
+    --main-bg: hsl(212, 45%, 89%);
+}
 
+body {
+    background-color: var(--main-bg);
+    font-size: 15px;
+}
 
+main.wrapper {
+    background-color: var(--card-bg);
+}
 
+p {
+    color: var(--p-color);
+}
 
-
-
-
-
+h1 {
+    color: var(--h1-color)
+}
 
 
 .attribution { 
